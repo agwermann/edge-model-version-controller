@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  fed-edge-model-version-controller:
+    image: fed-edge-model-version-controller:0.1
+    container_name: fed-edge-model-version-controller
+    ports:
+      - 8080:8080
